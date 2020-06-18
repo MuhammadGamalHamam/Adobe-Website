@@ -1,0 +1,314 @@
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    overflow-x: hidden;
+}
+
+header {
+    background-color: #fff;
+    display: inline-block;
+}
+
+header div {
+    display: inline-block;
+    cursor: pointer;
+}
+
+.page-name {
+    display: block;
+    font-family: sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    padding-left: 65px;
+    padding-top: 25px;
+    cursor: pointer;
+}
+
+header nav {
+    display: inline-block;
+    margin-left: 260px;
+}
+
+header nav ul li {
+    display: inline;
+}
+
+header nav ul li a {
+    color: #000;
+    font-family: sans-serif, arial, tahoma;
+    font-size: 14px;
+    font-weight: bold;
+    padding: 0 10px;
+    text-decoration: none;
+}
+
+header nav ul li a:hover {
+    background-color: #ecececd7;
+    padding: 40px 10px 26px 10px;
+}
+
+.sign-in {
+    position: absolute;
+    font-size: 14px;
+    font-weight: bold;
+    font-family: sans-serif, arial, tahoma;
+    top: 27px;
+    padding-left: 100px;
+}
+
+.sign-in:hover {
+    color: #66b3ff;
+    cursor: pointer;
+}
+
+
+/*..........................   background image   .............................*/
+
+.bkground-img {
+    background-image: url("Website Resourses/main.jpg");
+    display: inline-block;
+    background-color: #cccccc;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    width: 85%;
+    height: 1000px;
+    margin-top: 65px;
+    padding: 100px;
+}
+
+.main-title {
+    text-align: center;
+    width: 700px;
+    margin-bottom: 200px;
+    padding-top: 35px;
+    padding-left: 600px;
+}
+
+.main-title h1 {
+    font-family: sans-serif;
+    font-size: 38px;
+    margin-bottom: 25px;
+}
+
+.main-title p {
+    font-size: 13px;
+    font-weight: bold;
+    margin-bottom: 32px;
+}
+
+.main-title a[href="https://www.adobe.com/ca/creativecloud.html?promoid=MH16SK5Y&mv=other"] {
+    display: block;
+    background-color: #0066ff;
+    color: #fff;
+    width: 220px;
+    font-size: 17px;
+    border-radius: 20px;
+    padding: 6px;
+    margin: 0 auto;
+    margin-bottom: 25px;
+    text-decoration: none;
+}
+
+.main-title a[href="https://www.adobe.com/ca/creativecloud.html?promoid=MH16SK5Y&mv=other"]:hover {
+    background-color: #4878bf;
+}
+
+.main-title a[href="https://www.adobe.com/ca/creativecloud/business/teams.html?promoid=GCWTYNGL&mv=other"] {
+    color: #0066ff;
+    font-family: sans-serif;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+
+/*..........................   content    .............................*/
+
+.content {
+    display: flex;
+    background-color: rgba( 34, 33, 33, 0.9);
+    color: #fff;
+    width: 100%;
+    height: 570px;
+    padding: 30px 10px 30px 0px;
+}
+
+.content div {
+    text-align: center;
+    width: 30%;
+    height: 400px;
+    margin-left: 2.5%;
+}
+
+.content div img {
+    width: 350px;
+    height: 240px;
+    margin-bottom: 5px;
+    cursor: pointer;
+}
+
+.content div h2 {
+    float: left;
+    font-size: 16px;
+    font-weight: normal;
+    padding-bottom: 10px;
+}
+
+.content div h3 {
+    font-size: 28px;
+    font-weight: normal;
+    margin-bottom: 20px;
+}
+
+.content div p {
+    font-size: 14px;
+    margin-bottom: 35px;
+}
+
+.content div a {
+    display: block;
+    width: 200px;
+    color: #ccc;
+    margin: 25px auto;
+    padding: 4px;
+    font-weight: bold;
+    border: 2px solid #ccc;
+    border-radius: 30px;
+    text-decoration: none;
+}
+
+.content div a:hover {
+    background-color: #ccc;
+    color: #000;
+}
+
+.content .left-paragrarh a[name="left-but"] {
+    width: 110px;
+    margin-top: 95px;
+}
+
+.content .center-paragrarh a[name="center-but"] {
+    width: 150px;
+    margin-top: 127px;
+}
+
+.content .right-paragrarh a[name="right-but"] {
+    width: 110px;
+    margin-top: 78px;
+}
+
+
+/*..........................   Footer    .............................*/
+
+footer {
+    background-color: #000;
+    color: grey;
+    width: 100%;
+    height: 500px;
+    margin-top: 80px;
+    padding: 20px 0px;
+    padding-left: 70px;
+}
+
+footer>ul {
+    list-style-type: none;
+    width: 100%;
+    height: 100%;
+}
+
+footer .main-list>li {
+    display: inline-block;
+    float: left;
+    height: 300px;
+    margin-left: 10px;
+    padding: 20px 30px 20px 0px;
+    border-left: 1px solid #333;
+}
+
+footer .main-list>li:first-child {
+    margin-left: 60px;
+    border: none;
+}
+
+footer .main-list>li span {
+    color: #fff;
+    font-size: 18px;
+    font-weight: 500px;
+    padding-bottom: 20px;
+    margin-left: 40px;
+}
+
+footer .main-list>li ul {
+    list-style-type: none;
+    margin-top: 20px;
+}
+
+footer .main-list>li>ul li {
+    padding: 4px;
+}
+
+footer .main-list>li ul li:hover {
+    color: #fff;
+    cursor: pointer;
+}
+
+footer .main-list>li>ul li img {
+    width: 25px;
+    height: 25px;
+    margin-bottom: 5px;
+    cursor: pointer;
+}
+
+footer .Acrobat {
+    width: 90%;
+    height: 70px;
+    margin: 360px auto;
+    margin-bottom: 10px;
+    border-top: 1px solid #333;
+    border-bottom: 1px solid #333;
+}
+
+footer .Acrobat ul {
+    list-style-type: none;
+    margin-left: 400px;
+}
+
+footer .Acrobat ul li {
+    display: inline-block;
+    font-size: 14px margin: 0 auto;
+    padding: 20px;
+}
+
+footer .Acrobat ul li:hover {
+    color: #fff;
+    cursor: pointer;
+}
+
+footer .copyrights {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px 20px;
+}
+
+footer .copyrights p {
+    display: inline-block;
+    font-size: 15px;
+}
+
+.region:hover {
+    color: #fff;
+}
+
+.copy {
+    float: right;
+}
+
+footer .copyrights p span {
+    margin-left: 5px;
+    font-size: 15px
+}
+
+footer .copyrights p span:hover {
+    color: #fff;
+}
